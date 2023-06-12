@@ -1,0 +1,123 @@
+@media only screen and (min-width:200px) and (max-width:991px){
+    .navcontainer{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        border-top: 5px solid #ff3e41;
+    }
+    .navlinks ul{
+        display: none;
+    }
+    .logo{
+        position: relative;
+        height: 75px;
+        width: 55%;
+        background-color: #ff3e41;
+    }
+    .logo h1{
+        top: 20px;
+        left: 70px;
+    }
+    .checkbtn{
+        position: absolute;
+        display: block;
+        width: 12%;
+        top: 13px;
+        left: 22rem;
+        font-size: 35px;
+        border: 3px solid black;
+    }
+    .checkbtn i{
+        position: relative;
+        left: 3px;
+    }
+    .navlinks ul{
+        position: absolute;
+        background-color: #ffffff;
+        width: 20rem;
+        height: 35.5rem;
+        left: 0px;
+        top: 76px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .navlinks a{
+        position: relative;
+        top: 5px;
+        right: 7rem;
+        line-height: 2;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .navlinks p{
+        display: none;
+    }
+    .active a{
+        color: #ff3e41;
+    }
+    .navlinks a:hover{
+        border-top: none;
+    }
+    .navlinks li:hover .downer{
+        position: relative;
+        display: block;
+        height: 235px;
+        width: 240px;
+        top: 10px;
+        left: 10px;
+        color: black;
+        text-align: center;
+        border: 2px solid #808080;
+    }
+    .downer li a{
+        top: 0px;
+    }
+    .downer li{
+        position: relative;
+        top: 10px;
+        left: 40px;
+        margin-top: 0px;
+    }
+    #check:checked ~ ul{
+        display: inline-block;
+    }
+    /* home */
+    .Homecontainer{
+        height: 37.2rem;
+    }
+    .slidedata{
+        position: absolute;
+        height: 400px;
+        width: 75%;
+        top: 23%;
+        left: 5%;
+    }
+    .slidedata h1{
+        position: relative;
+        top: 20px;
+        font-size: 40px;
+    }
+    .slidedata p{
+        position: relative;
+        width: 100%;
+        top: 40px;
+    }
+    .slidedata .b2{
+        position: relative;
+        top: 60px;
+    }
+    .slidedata .b3{
+        position: relative;
+        top: 60px;
+    }
+    .slider .arrows-left{
+        left: 85.4%;
+        top: 38%;
+    }
+    .slider .arrows-right{
+        right: 7%;
+    }
+
+
+}
